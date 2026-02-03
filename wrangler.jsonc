@@ -58,7 +58,7 @@
   // R2 bucket for persistent storage (moltbot data, conversations, etc.)
   "r2_buckets": [
     {
-      "binding": "MOLTBOT_BUCKET",
+      "binding": "R2_BUCKET",
       "bucket_name": "moltbot-data","preview_bucket_name": "moltbot-data",
     },
   ],
