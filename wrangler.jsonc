@@ -58,13 +58,14 @@
   // R2 bucket for persistent storage (moltbot data, conversations, etc.)
   "r2_buckets": [
     {
-      "binding": "R2_BUCKET",
-      "bucket_name": "moltbot-data","preview_bucket_name": "moltbot-data",
+      "binding": "MY_BUCKET",
+      "bucket_name": "myworker-backup","preview_bucket_name": "myworker-backup",
     },
   ],
   // Cron trigger to sync moltbot data to R2 every 5 minutes
   "triggers": {
     "crons": ["*/5 * * * *"],
+    console.log("R2 bindings:", Object.keys(env))，
   },
   // Browser Rendering binding for CDP shim
   "browser": {
