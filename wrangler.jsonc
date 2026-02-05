@@ -65,7 +65,6 @@
   // Cron trigger to sync moltbot data to R2 every 5 minutes
   "triggers": {
     "crons": ["*/5 * * * *"],
-    console.log("R2 bindings:", Object.keys(env))，
   },
   // Browser Rendering binding for CDP shim
   "browser": {
